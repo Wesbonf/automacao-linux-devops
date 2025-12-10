@@ -1,10 +1,33 @@
- Automação Linux — Scripts DevOps
+# Automação Linux DevOps - Scripts Nível Júnior
 
-Coleção de scripts em Shell que automatizam tarefas administrativas em servidores Linux. Projeto com foco didático: cada script contém comentários, opções e exemplos de uso para ser usado como material de estudo e como utilitários no dia a dia de um DevOps.
+Este repositório contém scripts simples de automação para tarefas comuns em sistemas Linux.  
+O objetivo é servir como **exemplo de automação DevOps nível júnior**, podendo ser usado em laboratórios, testes e como portfólio.
 
-## Objetivos
-- Automatizar instalação de pacotes comuns (Docker, Git, Nginx, etc.)
-- Rotinas de backup e retenção simples
-- Coleta e rotação básica de logs
-- Monitoramento rápido via shell (disk usage, processos, uptime)
-- Demonstrar versionamento e boas práticas com Git
+---
+
+## 📂 Estrutura do repositório
+
+scripts/
+├── backup.sh # Script para criar backup de arquivos/pastas
+├── system.info.sh # Script para exibir informações do sistema
+└── update.system.sh # Script para atualizar o sistema Linux
+
+
+
+## ⚡ Requisitos
+
+- Sistema Linux (Debian, Ubuntu ou derivados)
+- Permissões de sudo para rodar `update.system.sh` e, se necessário, `backup.sh`
+
+---
+
+## 🚀 Como executar os scripts
+
+1. Entre na pasta `scripts`:
+
+```bash
+cd scripts
+chmod +x *.sh 
+```
+
+2. Execute os seguintes scripts
