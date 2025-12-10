@@ -5,6 +5,9 @@
 ORIGEM="$HOME/teste"
 DESTINO="$HOME/backups"
 
+# Criar pastas caso não existam
+mkdir -p "$ORIGEM"
+mkdir -p "$DESTINO"
 
 # Nome do arquivo com data/hora
 ARQUIVO_BACKUP="backup_$(date +%Y-%m-%d_%H-%M-%S).tar.gz"
