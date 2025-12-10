@@ -7,10 +7,10 @@ O objetivo é servir como **exemplo de automação DevOps nível júnior**, pode
 
 ## 📂 Estrutura do repositório
 
-scripts/
-├── backup.sh # Script para criar backup de arquivos/pastas
-├── system.info.sh # Script para exibir informações do sistema
-└── update.system.sh # Script para atualizar o sistema Linux
+**scripts/**  
+├── **backup.sh** – Script para criar backup de arquivos/pastas  
+├── **system.info.sh** – Script para exibir informações do sistema  
+└── **update.system.sh** – Script para atualizar o sistema Linux
 
 
 
