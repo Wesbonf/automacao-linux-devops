@@ -1,4 +1,4 @@
-# Automação Linux DevOps - Scripts Nível Júnior
+# Automação Linux DevOps - 
 
 Este repositório contém scripts simples de automação para tarefas comuns em sistemas Linux.  
 O objetivo é servir como **exemplo de automação DevOps nível júnior**, podendo ser usado em laboratórios, testes e como portfólio.
@@ -110,13 +110,6 @@ sudo ./update.system.sh
 - Sempre revise o conteúdo dos scripts antes de executá-los
 - Para ambientes de produção, adapte os scripts conforme suas necessidades
 - Use Docker para testes sem afetar seu sistema principal
-
----
-
-## 📚 Autor
-
-**Wesbonf** - DevOps Júnior  
-📧 Contato e portfólio: [GitHub](https://github.com/Wesbonf)
 
 ---
 
